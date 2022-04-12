@@ -339,8 +339,13 @@ body.fixed-menu #burger-menu {
   color: #333333;
 }
 
-.btn:active{
-  color: #fff;
+.home-img{
+  max-width: 70px;
+  margin-bottom: 15px;
+}
+
+.btn:focus{
+  color: #fff !important;
 }
 
 #header .menu-pager {
@@ -1540,6 +1545,66 @@ input[type="submit"].active {
 
 .table-row > div .inner-wrapper {
   padding: 40px 36px;
+  background-color: #5766aa;
+}
+
+.inner-wrapper p{
+  color: #fff;  
+}
+
+.btn-profile, input[type="submit"]{
+  background-color: #fff;
+  color: #333;
+  font-family: 'Lato';
+  font-size: 13px;
+  font-weight: bold;
+  border: 0px;
+  border-radius: 0px;
+  box-shadow: none;
+  text-transform: uppercase;
+  line-height: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.btn-profile:hover{
+  background-color: #333;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.btn-profile:focus{
+  text-decoration: none;
+
+}
+
+.input-contact{
+  max-width: 100%;
+  display: inline-block;
+}
+
+#contactform{
+  display: block !important;
+  text-align: center;
+}
+
+#contactform input, textarea{
+  text-align: center;
 }
 
 .title-lg,
@@ -1549,7 +1614,17 @@ input[type="submit"].active {
   font-weight: normal;
   line-height: 1.3em;
   letter-spacing: 1px;
-  color: #5766aa;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.title-md-contact {
+  font-family: 'Oswald';
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+  color: #fff;
   margin-bottom: 20px;
 }
 
