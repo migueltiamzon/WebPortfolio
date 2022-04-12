@@ -43,7 +43,7 @@ rules used in this template
 
 /* Header Style
 ====================================*/
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 /* Main Menu Handler */
 .burger-menu {
   display: inline-block;
