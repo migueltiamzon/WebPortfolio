@@ -291,7 +291,7 @@ body.fixed-menu #burger-menu {
   display: block;
   line-height: 158px;
   width: 88px;
-  background-image: url(images/logo.png);
+  background-image: url(images/favicon.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -337,6 +337,10 @@ body.fixed-menu #burger-menu {
   letter-spacing: 0.5px;
   margin: 0px;
   color: #333333;
+}
+
+.btn:active{
+  color: #fff;
 }
 
 #header .menu-pager {
