@@ -1618,6 +1618,16 @@ input[type="submit"].active {
   margin-bottom: 20px;
 }
 
+.title-md-profile {
+  font-family: 'Oswald';
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
 .title-md-contact {
   font-family: 'Oswald';
   font-size: 32px;
